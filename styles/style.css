@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.group_top {
+    margin-top: 40px;
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    flex-direction: column;
+}
+.main_back {
+    background-image: url('/images/Group 1.jpg');
+}
+.main_rect {
+    background: linear-gradient(to bottom right, #395C4D, #132D1F );
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 404px;
+}
+.main_text {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
