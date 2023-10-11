@@ -13,12 +13,14 @@ body {
 .main_back {
     background-image: url('/images/Img.jpg');
     background-size: cover;
+    width: 1440px;
+    height: 1072px;
+    background: linear-gradient(149deg, #395C4D 0.87%, #132D1F 94.27%);
 }
 .main_rect {
     width: 1440px;
     height: 1072px;
     background: linear-gradient(to bottom right, #395C4D, #132D1F );
-    background: linear-gradient(149deg, #395C4D 0.87%, #132D1F 94.27%);
 }
 
 .top {
