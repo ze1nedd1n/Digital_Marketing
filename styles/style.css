@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: Rubik;
 
 }
 .group_top {
@@ -18,14 +19,13 @@ body {
 }
 .main_back {
     position:relative;
-    flex-shrink: 0;
     margin: 0;
     background-image: url('/images/background_top.jpg');
-    background-size: contain;
+    background-size: cover;
     height: 852px;
-    width: 100%;
 
 }
+
 
 .top {
     width: 1170px;
@@ -97,4 +97,96 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+
+.service{
+    display: flex;
+    flex-direction: column;
+
+}
+.service_main_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.service_big_info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 500px;
+    height: 600px;
+    vertical-align: middle;
+    text-align: left;
+}
+.service_big_info h2{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 2%;
+}
+.service_big_info p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    width: 400px;
+    color: #78847D;
+}
+.service_big_info a{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: 2%;
+    color: #a3b938;
+    text-decoration: underline;
+}
+
+.service_4mini{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.service_4mini div div h2{
+    color: #253D32;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.44px;
+}.service_4mini div div p{
+    color: #78847D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 250px;
+}
+
+
+.service_second_info{
+    display: flex;
+    flex-direction: row;
+}
+.televisor{
+    position: relative;
+    width: 700px;
+}
+.televisor_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+.televisor_text h2{
+    width: 488px;
+    color: #253D32;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+}
+.televisor_text p{
+    color: #78847D;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    width: 450px;
 }
