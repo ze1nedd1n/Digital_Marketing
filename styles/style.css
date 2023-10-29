@@ -215,6 +215,56 @@ line-height: 40px; /* 181.818% */
 }
 
 
-.arcticle {
+.article {
     height: 955px;
+    display: flex;
+    flex-direction: column;
+
+}
+.article header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+.article header div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 466px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #253D32;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.article header div p {
+    margin: 0;
+}
+.article header h1 {
+    color: #253D32;
+    width: 488px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 154.762% */
+    letter-spacing: 0.84px;
+    margin: 0;
+}
+
+.article main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.article main .big_info{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    box-sizing: border-box;
 }
