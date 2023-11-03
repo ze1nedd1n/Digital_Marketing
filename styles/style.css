@@ -219,6 +219,7 @@ line-height: 40px; /* 181.818% */
     height: 955px;
     display: flex;
     flex-direction: column;
+    padding-top: 120px;
 
 }
 .article header {
@@ -258,8 +259,9 @@ line-height: 40px; /* 181.818% */
 
 .article main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+
 
 }
 .article main .big_info{
@@ -267,4 +269,17 @@ line-height: 40px; /* 181.818% */
     flex-direction: column;
     align-content: space-around;
     box-sizing: border-box;
+}
+
+.two_little_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+}
+.two_little_info #second_img,
+.two_little_info #third_img {
+    display: flex;
+    flex-direction: column;
+
 }
