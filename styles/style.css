@@ -437,3 +437,158 @@ body {
     flex-direction: column;
 
 }
+
+
+.footer{
+    height: 1114px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mask_group{
+    width: 1170px;
+    height: 542px;
+    background: linear-gradient(149deg, #395C4D 0.87%, #132D1F 94.27%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 130px;
+}
+.mask_group p{
+    width: 659px;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px; /* 171.875% */
+    letter-spacing: 0.32px;
+}
+.mask_group .email{
+    width: 372px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 192px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(332deg, #FFF 3.37%, #E2E2E2 132.9%);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    color: #14183E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-left: 25px;
+}
+.mask_group input::placeholder{
+    color: #14183E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-left: 5px;
+}
+.mask_group div{
+    margin-top: 60px;
+}
+.mask_group div button{
+    width: 243px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 192px;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    background: linear-gradient(329deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    color: #FFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-left: 30px;
+}
+.g581{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.g294{
+    position: absolute;
+    bottom: -27;
+    right: -107px;
+    width: 400px;
+}
+.g618{
+    width: 264px;
+    height: 42.025px;
+}
+.end_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+.end_footer .markethink img{
+    width: 198px;
+    height: 31.519px;
+    flex-shrink: 0;
+}
+.end_footer .markethink p{
+    width: 345px;
+    color: #78847D;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    letter-spacing: 0.2px;
+}
+.end_footer .menu{
+    padding-left: 172px;
+    width: 117px;
+
+}
+.end_footer .services{
+    width: 272px;
+    padding-left: 70px;
+}
+.end_footer .company{
+    width: 175px;
+    padding-left: 60px;
+}
+.end_footer .services h2,
+.end_footer .company h2,
+.end_footer .menu h2{
+    color: #253D32;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+    margin: 0;
+}
+.end_footer .services ul,
+.end_footer .company ul,
+.end_footer .menu ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+.end_footer .services li,
+.end_footer .company li,
+.end_footer .menu li{
+    color: #78847D;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 212.5% */
+}
