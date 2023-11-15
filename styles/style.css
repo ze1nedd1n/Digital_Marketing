@@ -1,9 +1,14 @@
+*{
+    box-sizing: border-box;
+    
+}
 body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     font-family: Rubik;
+    width: 100vw;
 
 }
 .group_top {
@@ -23,6 +28,7 @@ body {
     background-image: url('/images/background_top.jpg');
     background-size: cover;
     height: 852px;
+    width: 100vw;
 
 }
 
