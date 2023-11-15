@@ -466,7 +466,7 @@ body {
     line-height: 55px; /* 171.875% */
     letter-spacing: 0.32px;
 }
-.mask_group .email{
+.mask_group input{
     width: 372px;
     height: 78px;
     flex-shrink: 0;
